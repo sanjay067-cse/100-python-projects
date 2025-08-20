@@ -1,6 +1,6 @@
-# Day 02 Project: Tip Calculator
+# Project 02: Tip Calculator
 
-   A simple python program that:
+A simple python program that:
 <br>
 🔸Takes input for the total bill, desired tip percentage, and number of people to split the bill.
 <br>
