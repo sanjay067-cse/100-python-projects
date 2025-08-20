@@ -4,6 +4,7 @@
 <br>
 🔸This program allows users to encrypt (encode) or decrypt (decode) texts using this shifting method. 
 <br>
+<br>
 How it works:
 <br>
 1️⃣Encryption: Each letter in the text given by the user is replaced by the letter that is 'key' number of positions down the alphabet. For example, a shift of 3 (key= 3) would turn 'A' into 'D', 'B' into 'E', and so on.
