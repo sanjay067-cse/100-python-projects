@@ -15,12 +15,12 @@ def find_highest_bidder(bidding_dictionary):
     print(f"The Winner is {winner} with a bid of ${highest_bid}.")
 
 
-bids = {}      #Empty list to store names & bids of every person
+bids = {}      #Empty dictionary to store names & bids of every person
 continue_bidding = True
 while continue_bidding:
     name = input("What is your name?: ")
     price = int(input("What is your bid?: $"))
-    bids[name] = price        #Adding name and price of bid to the list every time a new bidder joins
+    bids[name] = price        #Adding name and price of bid to the dictionary every time a new bidder joins
     should_continue = input("Are there any other bidders? Type 'yes or 'no'. \n")
     if should_continue == "no" :
         continue_bidding = False
